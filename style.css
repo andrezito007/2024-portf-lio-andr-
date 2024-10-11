@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Playwrite+CL:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: "Aclonica", sans-serif;
+    --fonte-secundario: "Playwrite CL", cursive;
+    --vermelho-cereja: #780000ff;
+    --vermelho-fogo: #c1121fff;
+    --mamao: rgb(235, 215, 180);
+    --azul-prússia: #003049ff;
+    --azul-bebe: #669bbcff;
+    --branco: #ffffff;
+    
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--mamao);
+}

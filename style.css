@@ -10,7 +10,7 @@
     --fonte-secundario: "Playwrite CL", cursive;
     --vermelho-cereja: #780000ff;
     --vermelho-fogo: #c1121fff;
-    --mamao: rgb(235, 215, 180);
+    --mamao: rgb(255, 241, 86);
     --azul-prússia: #003049ff;
     --azul-bebe: #669bbcff;
     --branco: #ffffff;
@@ -20,4 +20,8 @@
 body{
     font-family: var(--fonte-principal);
     background-color: var(--mamao);
+}
+
+h1,h3{
+    font-family: var(--fonte-principal);
 }

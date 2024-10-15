@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Playwrite+CL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Varela+Round&display=swap');
 
 *{
     margin: 0;
@@ -6,8 +6,8 @@
 }
 
 :root{
-    --fonte-principal: "Aclonica", sans-serif;
-    --fonte-secundario: "Playwrite CL", cursive;
+    --fonte-principal: "Spicy Rice", serif;
+    --fonte-secundario: "Varela Round", sans-serif;
     --vermelho-cereja: #780000ff;
     --vermelho-fogo: #c1121fff;
     --mamao: rgb(255, 241, 86);

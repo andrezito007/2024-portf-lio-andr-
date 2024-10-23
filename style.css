@@ -9,10 +9,10 @@
     --fonte-principal: "Spicy Rice", serif;
     --fonte-secundario: "Varela Round", sans-serif;
     --vermelho-cereja: #780000ff;
-    --vermelho-fogo: #c1121fff;
+    --vermelho-fogo: rgb(190, 164, 19);
     --mamao: rgb(255, 241, 86);
-    --azul-prússia: #003049ff;
-    --azul-bebe: #669bbcff;
+    --azul-prússia: rgb(0, 0, 0);
+    --azul-bebe: rgb(226, 171, 31);
     --branco: #ffffff;
     
 }
@@ -22,6 +22,22 @@ body{
     background-color: var(--mamao);
 }
 
+.img.thumbnail{
+    border: 2px solid var(--mamao)
+}
+
 h1,h3{
     font-family: var(--fonte-principal);
+}
+
+.card{
+    background-color: var(--azul-bebe);
+    color: var(--branco);
+    
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--vermelho-fogo);
 }
